@@ -1,0 +1,28 @@
+@import "navigation.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+  text-align: center;
+  height: inherit;
+  margin-left: 48px;
+  font-family: 'Cormorant Unicase', serif;
+}
+.navbar {
+  width: 100%;
+  height: 56px;
+}
+
+.nav-row {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+}
