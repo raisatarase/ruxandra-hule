@@ -1,0 +1,122 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body {
+  margin: 0;
+  padding: 0;
+} */
+
+
+/* Nav styling */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* Logo/Brand styling  */
+.logo {
+  display: inline;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+  margin-left: 120px;
+  justify-content: space-around;
+}
+
+.logo a:hover {
+  color: rgb(0,0,0);
+}
+
+
+/* Navbar menu-list styling */
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+ul a {
+  color: rgb(0,0,0, 0.25);
+  text-decoration: none;
+}
+
+ul a:hover {
+  color: rgb(0,0,0, 0.75);
+}
+
+ul.show {
+  display: block;
+}
+
+
+/* Hamburger menu styling */
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+
+
+/* Hamburger menu styling for screens up to 1000px */
+@media only screen and (max-width: 1000px) {
+  .navigation {
+
+  }
+
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: rgb(0,0,0, 0.25);
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-start;
+
+  }
+
+  ul {
+    display: none;
+    background-color: aliceblue;
+    margin: 0px;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: aliceblue;
+    height: auto;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
+/* Footer styling */
+footer {
+  border: 1px solid black;
+  background-color: blueviolet;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+}
+
+.socials i {
+  margin: 10px;
+}
