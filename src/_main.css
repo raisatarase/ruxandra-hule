@@ -1,9 +1,25 @@
 @import "_navigation.css";
 @import "_footer.css";
+@import "_contact.css";
+
+
+ /* For small screens */
+/* body {
+  background-color: rgba(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  margin: 0;
+} */
 
 .wrapper {
   display: block;
   justify-content: space-between;
   flex-direction: column;
   min-height: 100vh;
+}
+
+section {
+  height: 100vh;
 }

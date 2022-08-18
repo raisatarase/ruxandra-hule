@@ -21,7 +21,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <section>
+    <section class="main">
       <div class="topnav">
         <a href="#home" class="active">Ruxandra Hule</a>
         <!-- Navigation links (hidden by default) -->
@@ -41,35 +41,36 @@
     <img src="" alt="">
 
     <!-- Form section -->
-    <section>
-      <div class="form">
+    <section id="contact">
+      <div class="contact">
         <form action="https://formsubmit.co/your@email.com" method="POST">
-          <div class="form-control">
+          <div>
             <label for="name">Name *</label>
-            <input type="text" name="first-name" placeholder="Your name..."required>
+          </div>
+            <input type="text" name="first-name" required>
             <input type="text" name="last-name" required>
+          <div>
+            <label for="email">Email Address *</label></div>
+          <div class="email">
+            <input class="input-email" type="email" name="email" required>
           </div>
-
-          <div class="form-control">
-            <label for="email">Email Address *</label>
-            <input type="email" name="email" placeholder="Yout email..."required>
+          <div>
+            <label for="subject">Subject *</label>
           </div>
-          <div class="form-control">
-            <label for="">Subject *</label>
-            <input type="text">
+            <input class="input-subject" type="text">
+          <div>
+            <label for="message">Message</label>
           </div>
-          <div class="form-control">
-            <label for="">Message</label>
-            <input type="text" name="text" placeholder="Write your message..."required>
+            <input class="input-message" type="text" name="text" required>
+          <div class="submit">
+            <button type="submit">Submit</button>
           </div>
-          <button type="submit">Send</button>
         </form>
       </div>
     </section>
-
       <!-- Footer -->
 
-    <section>
+    <section id="footer">
       <div id="footer-goes-here">
       <footer id="contact">
         <div class="social">
