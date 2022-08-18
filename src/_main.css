@@ -1,2 +1,9 @@
 @import "_navigation.css";
 @import "_footer.css";
+
+.wrapper {
+  display: block;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}

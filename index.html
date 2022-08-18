@@ -20,47 +20,72 @@
 
 </head>
 <body>
-  <div class="topnav">
-    <a href="#home" class="active">Ruxandra Hule</a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-      <a href="#gallery">Gallery</a>
-      <a href="#about">Bio</a>
-      <a href="#contact">Contact</a>
+  <div class="wrapper">
+    <section>
+      <div class="topnav">
+        <a href="#home" class="active">Ruxandra Hule</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#gallery">Gallery</a>
+          <a href="#about">Bio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Cover Photo -->
+    <img src="" alt="">
+
+    <!-- Form section -->
+    <section>
+      <div class="form">
+        <form action="https://formsubmit.co/your@email.com" method="POST">
+          <div class="form-control">
+            <label for="name">Name *</label>
+            <input type="text" name="first-name" placeholder="Your name..."required>
+            <input type="text" name="last-name" required>
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email Address *</label>
+            <input type="email" name="email" placeholder="Yout email..."required>
+          </div>
+          <div class="form-control">
+            <label for="">Subject *</label>
+            <input type="text">
+          </div>
+          <div class="form-control">
+            <label for="">Message</label>
+            <input type="text" name="text" placeholder="Write your message..."required>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+      <!-- Footer -->
+
+    <section>
+      <div id="footer-goes-here">
+      <footer id="contact">
+        <div class="social">
+          <div>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+      </footer>
     </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
-  <!-- Hamburger menu -->
-  <!-- <button class="hamburger" id="hamburger">
-    <i class="fa-solid fa-bars"></i>
-  </button> -->
-
-  <footer id="contact">
-    <div class="social">
-      <div>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      </div>
-      <div>
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-      </div>
-      <div>
-        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-      </div>
-      <div>
-        <a href="#"><i class="fa-solid fa-at"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="./src/application.js"></script>
-
-
-  <!-- JavaScript Bundle with Popper Bootstrap -->
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </section>
+    <script src="./src/application.js"></script>
+</div>
 </body>
 </html>
