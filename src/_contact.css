@@ -1,19 +1,26 @@
-#contact{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  min-height: 50vh;
+* {
+  box-sizing: border-box;
 }
 
-.contact {
-  justify-self: center;
+.container{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  justify-self: center;
+  height: 100vh;
 }
 
 .form {
-  padding: 60px 60px;
+  width: auto;
+  /* padding: 60px 60px; */
+  background-color: rgb(47, 82, 113);
+  margin: 0 5%;
+  padding: 30px 60px;
+  border-radius: 20px;
 }
+
 
 .input-email {
   width: 100%;

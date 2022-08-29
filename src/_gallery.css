@@ -5,6 +5,7 @@
 section {
   height: 100vh;
   text-align: center;
+  justify-content: center;
 }
 
 h3 {
@@ -13,58 +14,71 @@ h3 {
 
 p {
   color: rgba(0, 0, 0, 0.50);
+  padding: 0;
+  margin: 0;
 }
 
 .gallery {
-  padding-top: 60px;
+  padding: 0;
+  margin: 0;
 }
 
-.gallery img {
-  width: 80%;
-  height: 100%;
-}
-
-.gallery-lost img {
-  width: 60%;
-  height: 700px;
-}
-
-.gallery-mind {
-  width: 100%;
+ img {
+  width: 40%;
+  height: 50%;
   overflow: hidden;
+  margin: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .distortion-c img {
+  box-shadow: none;
+ }
+
+
+ .constriction img {
+  width: 20%;
+ }
+/* Screens with a min seize of 1200px */
+@media only screen and (min-width: 1200px) {
+ .lost img {
+  width: 40%;
+
+ }
+
+ .gallery-univers {
+  padding-top: 100px;
+ }
+ .gallery-univers img {
+  width: 40%;
+ }
+
+ .storm img {
+  width: 40%;
+
+ }
+
+ .transition img {
+  width: 40%;
+ }
+
+ .frame-a img {
+  width: 40%;
+  height: 700px;
+ }
+
+ .frame-b img {
+  width: 40%;
+  height: 700px;
+ }
 }
 
-
-/* Fir screens of max 800px */
 @media only screen and (max-width: 800px) {
-  section {
-    height: 60vh;
-  }
-  .gallery img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-  }
 
-  .gallery-lost img {
-    width: 100%;
-    max-width: 400px;
-    height: 400px;
-  }
-}
 
-@media only screen and (min-width: 1400px) {
-  .gallery-lost img {
-    width: 100%;
-    max-width: 800px;
-    height: 900px;
-  }
+
 }
 
 @media only screen and (min-width: 2000px){
-  .gallery-lost img {
-    width: 100%;
-    max-width: 1200px;
-    height: 1100px;
-  }
+
 }
