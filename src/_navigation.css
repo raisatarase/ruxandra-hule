@@ -2,7 +2,8 @@
 @media only screen and (max-width: 992px) {
   /* Style the navigation menu */
   .topnav {
-    background-color:  rgb(224, 202, 77);
+    background-color: blue;
+    /* background-color:  rgb(224, 202, 77); */
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -33,7 +34,7 @@
   }
 
   .topnav a.active {
-    /* height: 48px; */
+    height: 48px;
   }
   .topnav a:hover {
     color: rgba(0, 0, 0, 0.50);
