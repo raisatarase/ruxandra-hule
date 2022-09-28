@@ -1,0 +1,43 @@
+@import 'nav.css';
+@import 'gallery.css';
+@import 'form.css';
+@import 'footer.css';
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color:  rgb(230, 198, 115);
+}
+
+.description{
+  max-width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+.column {
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  text-align: center;
+  flex: 50%;
+  float: left;
+  padding-left: 20px;
+}
+
+.column p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.column img{
+    margin-left: auto;
+    width: 70%;
+}
+
+.column:after {
+  content: "";
+  display: table;
+  clear: both;
+}
