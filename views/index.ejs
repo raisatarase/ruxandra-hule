@@ -4,21 +4,35 @@
   <%- include('./partials/head.ejs') %>
 
 <body>
-    <!-- Navbar partial-->
-    <%- include('./partials/nav.ejs') %>
-   <section class="description">
-      <div>
-        <p>Ruxandra Hule</p>
+   <section class="wrapper">
+    <div>
+      <!-- Navbar partial-->
+      <%- include('./partials/nav.ejs') %>
+    </div>
+
+    <!-- Presentation -->
+    <div class="float-container">
+      <div class="float-child">
+        <p>
+          HI,
+          I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach
+          I love creating spaces in which people feel safe to express themselves.
+          </p>
       </div>
-      <div>
+      <div class="float-child">
         <figure>
-          <img src="P1010115.png" alt="Picture of myself">
+          <img src="P1010115.png" alt="My Picture">
         </figure>
       </div>
-    </section>
+    </div>
 
- <!-- Footer partial -->
- <%- include('./partials/footer.ejs') %>
+    <div class="footer">
+      <!-- Footer partial -->
+      <%- include('./partials/footer.ejs') %>
+    </div>
+  </section>
+
+
 
   <!-- Java Script -->
   <script src="./src/application.js"></script>

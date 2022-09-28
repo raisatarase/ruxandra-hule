@@ -1,3 +1,11 @@
+@media only screen and (min-width: 993px) {
+
+}
+
+
+
+
+
 /* Navbar for screens up to 992 px */
 @media only screen and (max-width: 992px) {
   /* Style the navigation menu */
@@ -36,45 +44,5 @@
   }
   .topnav a:hover {
     color: rgba(0, 0, 0, 0.50);
-  }
-}
-
-
-
-@media only screen and (min-width: 993px) {
-  .topnav {
-    background-color:  rgb(224, 202, 77);
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    align-items: center;
-  }
-  .topnav .active {
-    width: 50%;
-    float: left;
-  }
-  .topnav #myLinks {
-    display: inline-flex;
-    width: 50%;
-    float: right;
-    justify-content: space-around;
-  }
-
-  .topnav a {
-    color: rgba(0, 0, 0, 0.75);
-    font-family: 'Nunito Sans', sans-serif;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-
-  .topnav a:hover {
-    color:rgba(0, 0, 0, 0.50);
-    background-color: blanchedalmond;
-  }
-
-  .topnav a.icon {
-    display: none;
   }
 }
