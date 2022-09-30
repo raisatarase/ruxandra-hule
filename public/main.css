@@ -54,6 +54,7 @@ html, body {
 }
 
 /* Presentation styling */
+
 .float-container {
   border: 3px solid #fff;
   padding: 20px;
@@ -64,26 +65,43 @@ html, body {
 .float-child {
   width: 50%;
   float: left;
+  text-align: start;
+  margin-left: 48px;
 }
+
+.about-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  padding: 10px 30px;
+  border: 1px solid;
+  display: inline-block;
+  transition: all .2s;
+  position: relative;
+}
+
 
 /* Footer styling */
 
 footer {
-  height: 56px;
+  height: 200px;
+  margin: 0px 48px;
 }
 
 .social {
   display: flex;
   text-align: center;
   justify-content: space-between;
-  margin: auto;
-  margin-bottom: 16px;
+  margin-bottom: 100px;
 }
 
 .social-icon {
   float: left;
 }
 
+
+/* .about-btn:link,
+.about-btn:visited, */
 .btn:link,
 .btn:visited {
  text-transform: uppercase;
@@ -91,21 +109,22 @@ footer {
  color: rgb(27, 27, 27);
  padding: 10px 30px;
  border: 1px solid;
- /* border-radius: 1000px; */
  display: inline-block;
  transition: all .2s;
  position: relative;
 }
 
+.about-btn:hover,
 .btn:hover {
  transform: translateY(-5px);
- /* box-shadow: 0 10px 20px rgba(27, 27, 27, .5); */
 }
 
+.about-btn:active,
 .btn:active {
  transform: translateY(-3px);
 }
 
+.about-btn::after,
 .btn::after {
  content: "";
  display: inline-block;
@@ -119,7 +138,12 @@ footer {
  transition: all .3s;
 }
 
+.about-btn:hover::after,
 .btn:hover::after {
  transform: scaleX(1.4) scaleY(1.5);
  opacity: 0;
+}
+
+button {
+  background-color: rgb( 255, 255, 255);
 }
