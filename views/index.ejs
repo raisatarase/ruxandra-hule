@@ -4,41 +4,43 @@
   <%- include('./partials/head.ejs') %>
 
 <body>
-   <section class="wrapper">
-    <div>
-      <!-- Navbar partial-->
-      <%- include('./partials/nav.ejs') %>
-    </div>
+  <section class="nav-section">
+  <!-- Navbar partial-->
+  <div>
+    <%- include('./partials/nav.ejs') %>
+  </div>
+  </section>
 
+  <section class="wrapper">
     <!-- Presentation -->
     <div class="float-container">
       <div class="float-child">
         <div class="greeting">
           <h1>Hi,</h1>
         </div>
-       <div class="description">
-        <p><strong>
-          I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach
-          I love creating spaces in which people feel safe to express themselves.
-        </strong></p>
-       </div>
-      <div>
-        <button class="about-btn"> <a href="/about">About me</a></button>
+        <div class="description">
+          <p><strong>
+            I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach.
+            I love creating spaces in which people feel safe to express themselves.
+          </strong></p>
+        </div>
+        <button class="about-btn"> <a href="/about">More about me</a></button>
+      </div>
+
+
+      <div class="float-child">
+        <figure>
+          <img src="P1010185.png" alt="My Picture">
+        </figure>
       </div>
     </div>
-      <!-- <div class="float-child">
-        <figure>
-          <img src="P1010115.png" alt="My Picture">
-        </figure>
-      </div> -->
-    </div>
 
-    <div class="footer">
-      <!-- Footer partial -->
-      <%- include('./partials/footer.ejs') %>
-    </div>
   </section>
 
+  <!-- Footer partial -->
+  <div class="footer">
+    <%- include('./partials/footer.ejs') %>
+  </div>
 
   <!-- Java Script -->
   <script src="./src/application.js"></script>

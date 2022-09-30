@@ -1,6 +1,6 @@
-@import 'gallery.css';
-@import 'form.css';
-@import 'footer.css';
+/* @import 'gallery.css';
+@import 'form.css'; */
+
 
 html, body {
   margin: 0;
@@ -8,13 +8,25 @@ html, body {
   width: 100%;
 }
 
+ /* Make website responsive */
+/* .container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 50px 50px;
+} */
+
+
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  text-align: center;
+  justify-content: center;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
+.nav-section {
+  min-height: 50vh;
+}
 /* Navbar styling */
 .navbar {
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.25); */
@@ -60,6 +72,7 @@ html, body {
   padding: 20px;
   margin-top: 60px;
   text-align: center;
+  text-align: center;
 }
 
 .float-child {
@@ -67,6 +80,14 @@ html, body {
   float: left;
   text-align: start;
   margin-left: 48px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.float-child img {
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .about-btn {
@@ -78,6 +99,12 @@ html, body {
   display: inline-block;
   transition: all .2s;
   position: relative;
+  margin-top: 20px;
+}
+
+.about-btn a {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
 }
 
 
