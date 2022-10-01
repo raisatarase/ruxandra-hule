@@ -2,52 +2,57 @@
 @import 'form.css'; */
 
 
-html, body {
-  margin: 0;
+/* Fonts CSS Rules
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto Serif', serif; */
+
+html {
   height: 100%;
-  width: 100%;
 }
 
- /* Make website responsive */
-/* .container {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-template-rows: 50px 50px;
-} */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
 
-.wrapper {
+.main {
   display: flex;
   text-align: center;
-  justify-content: center;
   flex-direction: column;
-  min-height: 50vh;
+  height: 100%;
 }
 
-.nav-section {
-  min-height: 50vh;
+p, h1 {
+  font-family: 'Nunito Sans', sans-serif;
 }
+
+
 /* Navbar styling */
 .navbar {
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.25); */
   width: 100vw;
   overflow: hidden;
   position: fixed;
   align-items: center;
   text-align: center;
+  background-color: rgb( 255, 255, 255);
+  margin-top: 0%;
 }
 
 /* Navbar Logo styling */
 .navbar .active {
 
 }
+
 .navbar #myLinks {
   display: inline-flex;
   justify-content: space-around;
   width: 50%;
   float: right;
-  /* margin-bottom: 30px;
-  padding-bottom: 10px; */
+  margin: 0px 18px;
+  font-family: 'Roboto Serif', serif;
+  font-weight: lighter;
 }
 
 .navbar a {
@@ -58,14 +63,14 @@ html, body {
 }
 
 .navbar a:hover {
-  color:rgba(0, 0, 0, 0.50);
+  color:rgba(0, 0, 0, 0.20);
 }
 
 .navbar a.icon {
   display: none;
 }
 
-/* Presentation styling */
+/* Introduction styling */
 
 .float-container {
   border: 3px solid #fff;
@@ -73,6 +78,7 @@ html, body {
   margin-top: 60px;
   text-align: center;
   text-align: center;
+  display: flex;
 }
 
 .float-child {
@@ -82,11 +88,12 @@ html, body {
   margin-left: 48px;
   display: inline-block;
   vertical-align: middle;
+  flex: 60%;
 }
 
 .float-child img {
   width: 400px;
-  border-radius: 5px;
+  flex: 40%;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -110,9 +117,14 @@ html, body {
 
 /* Footer styling */
 
+.footer {
+  height: 20%
+}
+
 footer {
-  height: 200px;
+  height: ;
   margin: 0px 48px;
+  text-align: center;
 }
 
 .social {
@@ -126,9 +138,6 @@ footer {
   float: left;
 }
 
-
-/* .about-btn:link,
-.about-btn:visited, */
 .btn:link,
 .btn:visited {
  text-transform: uppercase;
@@ -144,6 +153,7 @@ footer {
 .about-btn:hover,
 .btn:hover {
  transform: translateY(-5px);
+ color: rgba(0, 0, 0, 0.20);
 }
 
 .about-btn:active,
@@ -173,4 +183,7 @@ footer {
 
 button {
   background-color: rgb( 255, 255, 255);
+  border: none;
+  font-family: 'Roboto Serif', serif;
+  font-weight: lighter;
 }
