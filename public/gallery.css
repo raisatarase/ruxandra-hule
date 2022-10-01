@@ -2,11 +2,7 @@
   box-sizing: border-box;
 }
 
-section {
-  height: 100vh;
-  text-align: center;
-  justify-content: center;
-}
+
 
 h3 {
   color: rgb(0, 0, 0,);

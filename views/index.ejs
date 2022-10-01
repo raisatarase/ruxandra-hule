@@ -5,48 +5,60 @@
 
 <body>
   <!-- Navbar -->
-  <section class="navigation">
     <%- include('./partials/nav.ejs') %>
-  </section>
-
   <!-- Main -->
-  <section class="main">
-
-    <div>
-      <p><strong>I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach.
-      I love creating spaces in which people feel safe to express themselves.
-      </strong></p>
+  <div class="parent">
+    <div class="child">
+      <div class="content">
+        <p>HI, I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach.
+        I love creating spaces in which people feel safe to express themselves. Painting has always been part of my universe...</p>
+      </div>
     </div>
 
-    <div>
-      <figure>
+    <div class="child">
+      <div class="content">
         <img src="blackwhite.png" alt="Portrait1">
-      </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="parent">
+    <div class="child">
+      <div class="content">
+        <img src="blackandwhite2.png" alt="Portrait2">
+      </div>
     </div>
 
+    <div class="child">
+      <div class="content">
+        <p> My process starts with an indescribable sensation, with a color I don’t necessarily prefer- usually with something I tend to deny.Inspiration comes from my emotional landscape and the way it does not fit to the surrounding circumstances. With no end in my mind, I let colors of the soul and thought shapes to transform into new forms and textures.</p>
+      </div>
+    </div>
+  </div>
 
-      <div>
-        <p>Painting has always been part of my universe... My process starts with an indescribable sensation, with a color I don’t necessarily prefer- usually with something I tend to deny.</p>
-        <p>Inspiration comes from my emotional landscape and the way it does not fit to the surrounding circumstances. With no end in my mind, I let colors of the soul and thought shapes to transform into new forms and textures. </p>
+  <div class="parent">
+    <div class="child">
+      <div class="content">
         <p> Layer after layer, I become less and less attached to the object. What interests me is the constant process of wondering, a drop-down-through my unconscious abyss and bringing to the surface what I don’t know I know about myself. By surrendering to this journey, I intuitively understand what comes next in the instant pictures that cultivate my inner knowing.</p>
       </div>
+    </div>
 
-      <div>
-        <a href="/about"><button class="about-btn">Bio</button></a>
+    <div class="child">
+      <div class="content">
+        <img src="blackandwhite2.png" alt="Portrait2">
       </div>
+    </div>
+  </div>
 
-      <div>
-        <figure>
-          <img src="" alt="Portrait2">
-        </figure>
-      </div>
-  </section>
+
+
+    <!-- <div>
+      <a href="/about"><button class="about-btn">Bio</button></a>
+    </div> -->
+
 
   <!-- Footer-->
-  <section class="footer">
-      <%- include('./partials/footer.ejs') %>
-  </section>
-
+  <%- include('./partials/footer.ejs') %>
   <!-- Java Script -->
   <script src="./src/application.js"></script>
 </div>

@@ -1,0 +1,71 @@
+/* Footer styling */
+
+
+.footer {
+  height: 50vh;
+  margin: 0px 48px;
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.social {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+}
+
+.social-icon {
+  float: left;
+}
+
+.btn:link,
+.btn:visited {
+ text-transform: uppercase;
+ text-decoration: none;
+ color: rgb(27, 27, 27);
+ padding: 10px 30px;
+ border: 1px solid;
+ display: inline-block;
+ transition: all .2s;
+ position: relative;
+}
+
+.about-btn:hover,
+.btn:hover {
+ transform: translateY(-5px);
+ color: rgba(0, 0, 0, 0.20);
+}
+
+.about-btn:active,
+.btn:active {
+ transform: translateY(-3px);
+}
+
+.about-btn::after,
+.btn::after {
+ content: "";
+ display: inline-block;
+ height: 100%;
+ width: 100%;
+ border-radius: 100px;
+ top: 0;
+ left: 0;
+ position: absolute;
+ z-index: -1;
+ transition: all .3s;
+}
+
+.about-btn:hover::after,
+.btn:hover::after {
+ transform: scaleX(1.4) scaleY(1.5);
+ opacity: 0;
+}
+
+button {
+  background-color: rgb( 255, 255, 255);
+  border: none;
+  font-family: 'Roboto Serif', serif;
+  font-weight: lighter;
+}

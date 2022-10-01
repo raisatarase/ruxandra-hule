@@ -1,0 +1,81 @@
+nav {
+  height: 56px;
+  position: absolute;
+}
+
+.navbar {
+  top: 0;
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgb( 255, 255, 255);
+}
+
+.navbar #myLinks {
+  width: 50%;
+  display: inline-flex;
+  float: right;
+  justify-content: space-around;
+  font-family: 'Roboto Serif', serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.navbar a {
+  color: rgba(0, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color:rgba(0, 0, 0, 0.50);
+}
+
+.icon {
+  display: none;
+}
+
+
+
+/* Navbar for screens up to 992 px */
+@media only screen and (max-width: 992px) {
+  /* Style the navigation menu */
+  .navbar {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navbar #myLinks {
+    display: inline;
+  }
+  /* Style navigation menu links */
+  .navbar a {
+    color: rgba(0, 0, 0);
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+  }
+
+  /* Style the hamburger menu */
+  .navbar a.icon {
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navbar a.active {
+    height: 48px;
+    display: block;
+  }
+  .navbar a:hover {
+    color: rgba(0, 0, 0, 0.50);
+  }
+}
