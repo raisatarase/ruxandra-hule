@@ -1,12 +1,9 @@
-/* Footer styling */
-
-
-.footer {
-  height: 50vh;
+footer {
+  width: 100%;
+  height: 400px;
   margin: 0px 48px;
   text-align: center;
   margin-top: 60px;
-
 }
 
 .social {

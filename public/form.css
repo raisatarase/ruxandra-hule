@@ -1,18 +1,30 @@
-.form-container{
+.form-container {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  justify-content: center;
+}
+
+form {
+  width: 400px;
 
 }
 
-.form-container label {
-
-}
-
-.form-container input {
-
+input[type=text], input[type=email], input[type=submit]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
 }
 
 .submit {
   padding-top: 10px;
   text-align: center;
+  color: black;
+  background-color: transparent;
 }
 
 button {
