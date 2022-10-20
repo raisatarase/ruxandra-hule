@@ -14,10 +14,7 @@ p {
   margin: 0;
 }
 
-.gallery {
-  padding: 0;
-  margin: 0;
-}
+
 
  img {
   width: 40%;
@@ -26,55 +23,3 @@ p {
   margin: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
-
- .distortion-c img {
-  box-shadow: none;
- }
-
-
- .constriction img {
-  width: 20%;
- }
-/* Screens with a min seize of 1200px */
-@media only screen and (min-width: 1200px) {
- .lost img {
-  width: 40%;
-
- }
-
- .gallery-univers {
-  padding-top: 100px;
- }
- .gallery-univers img {
-  width: 40%;
- }
-
- .storm img {
-  width: 40%;
-
- }
-
- .transition img {
-  width: 40%;
- }
-
- .frame-a img {
-  width: 40%;
-  height: 700px;
- }
-
- .frame-b img {
-  width: 40%;
-  height: 700px;
- }
-}
-
-@media only screen and (max-width: 800px) {
-
-
-
-}
-
-@media only screen and (min-width: 2000px){
-
-}
