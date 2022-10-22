@@ -7,7 +7,6 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto Serif', serif; */
 
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,10 +14,17 @@ font-family: 'Roboto Serif', serif; */
 
 section {
   height: 100vh;
+  text-align: center;
 }
 
 .navbar {
   height: 20vh;
+}
+
+/* Gallery styling */
+
+.tectonica {
+  margin-top: 80px;
 }
 
  img {
@@ -26,10 +32,39 @@ section {
   max-width: 500px;
   height: 50%;
   overflow: hidden;
-  margin: 0;
+  margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
- .img-3 img{
+ .img-lost img {
+  max-width: 800px;
+ }
+
+ .vulgar img {
+  max-width: 800px;
+ }
+
+ .distortion-c img {
+  box-shadow: none;
+ }
+ .sweet img{
   max-width: 200px;
+  max-height: 500px;
+ }
+
+ .love img {
+  max-width: 400px;
+  max-height: 360px;
+ }
+
+ p{
+  padding-bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+ }
+
+ h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Serif', serif;
+  font-weight: lighter;
  }
