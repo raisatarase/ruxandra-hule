@@ -1,21 +1,24 @@
 .topnav {
-  overflow: scroll;
-  background-color: rgb(186, 182, 182);
+  overflow: hidden;
 }
+/* Fonts CSS Rules
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto Serif', serif; */
 
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
-  text-align: center;
+  color: #000000;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 17px;
+  font-weight: lighter;
+  margin-right: 20px;
 }
 
 .topnav a:hover {
-  background-color: rgba(232, 232, 232);
-  color: rgb(255, 255, 255);
+  color: rgb(163, 163, 163);
 }
 
 .topnav .icon {
