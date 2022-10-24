@@ -6,12 +6,7 @@
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Roboto Serif', serif; */
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  min-height: 100vh;
-}
+
 
 * {
   box-sizing: border-box;
