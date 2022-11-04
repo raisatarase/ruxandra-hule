@@ -30,7 +30,7 @@ section {
 
  img {
   align-self: center;
-  max-width: 500px;
+  max-width: 50%;
   height: 50%;
   overflow: hidden;
   margin: 10px;
@@ -38,24 +38,29 @@ section {
  }
 
  .img-lost img {
-  max-width: 800px;
+  max-width: 80%;
  }
 
  .vulgar img {
-  max-width: 800px;
+  max-width: 80%;
+ }
+
+ .img-3 img {
+  max-width: 10%;
+  max-height: 10%;
  }
 
  .distortion-c img {
   box-shadow: none;
  }
  .sweet img{
-  max-width: 200px;
-  max-height: 500px;
+  max-width: 20%;
+  max-height: 50%;
  }
 
  .love img {
-  max-width: 400px;
-  max-height: 360px;
+  max-width: 40%;
+  max-height: 36%;
  }
 
  p{
