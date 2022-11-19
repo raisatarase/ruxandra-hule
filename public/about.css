@@ -1,4 +1,18 @@
 .content {
-  margin: 20px;
+  width: 80%;
+  height: 80vh;
+  max-height: 40rem;
+  margin: auto;
   padding: 10px;
+  text-align: center;
+}
+
+.portrait img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gooter {
+  height: 10vh;
 }
