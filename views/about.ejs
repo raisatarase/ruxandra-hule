@@ -6,30 +6,25 @@
 
   <!-- Navbar -->
   <%- include('./partials/nav.ejs') %>
-  <section>
-  <div class="content">
-    <div>
-      <p>HI, I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach.
+  <section class="content">
+    <p class="description">HI, I am Ruxandra Hule, an intuitive painter, experience designer and an identity coach.
       I love creating spaces in which people feel safe to express themselves. Painting has always been part of my universe...</p>
-      <figure class="portrait">
-        <img src="blackandwhite3.png" alt="">
-      </figure>
-    </div>
-    <div>
-      <p> My process starts with an indescribable sensation, with a color I don’t necessarily prefer- usually with something I tend to deny. Inspiration comes from my emotional landscape and the way it does not fit to the surrounding circumstances. With no end in my mind, I let colors of the soul and thought shapes to transform into new forms and textures.</p>
-      <figure class="portrait">
-        <img src="blackandwhite2.png" alt="">
-      </figure>
-    </div>
-    <div>
-      <p> Layer after layer, I become less and less attached to the object. What interests me is the constant process of wondering, a drop-down-through my unconscious abyss and bringing to the surface what I don’t know I know about myself. By surrendering to this journey, I intuitively understand what comes next in the instant pictures that cultivate my inner knowing.</p>
-    </div>
-  </div>
-</section>
-<section class="gooter">
-    <!-- Footer-->
-    <%- include('./partials/footer.ejs') %>
-</section>
+    <figure class="portrait">
+      <img src="blackandwhite3.png" alt="">
+    </figure>
+    <p class="description"> My process starts with an indescribable sensation, with a color I don’t necessarily prefer- usually with something I tend to deny. Inspiration comes from my emotional landscape and the way it does not fit to the surrounding circumstances. With no end in my mind, I let colors of the soul and thought shapes to transform into new forms and textures.</p>
+  </section>
+  <section class="content">
+    <figure class="portrait">
+      <img class="portrait" src="blackandwhite2.png" alt="">
+    </figure>
+    <p class="description">Layer after layer, I become less and less attached to the object. What interests me is the constant process of wondering, a drop-down-through my unconscious abyss and bringing to the surface what I don’t know I know about myself. By surrendering to this journey, I intuitively understand what comes next in the instant pictures that cultivate my inner knowing.</p>
+  </section>
 
+  <!-- Footer partial -->
+  <%- include('./partials/footer.ejs') %>
+
+  <!-- JS -->
+  <script src="application.js"></script>
 </body>
 </html>

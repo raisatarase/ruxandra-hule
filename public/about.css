@@ -1,18 +1,19 @@
 .content {
-  width: 80%;
-  height: 80vh;
-  max-height: 40rem;
-  margin: auto;
+  height: 100%;
+  width: 100%;
+  margin: 40px auto;
   padding: 10px;
   text-align: center;
 }
 
-.portrait img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+.description {
+  margin: 60px;
+  padding: 20px;
+  font-size: 3vw;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
-.gooter {
-  height: 10vh;
+.portrait {
+  object-fit: cover;
+  margin-top: 20px;
 }
