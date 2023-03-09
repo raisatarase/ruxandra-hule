@@ -3,47 +3,64 @@
 @import 'footer.css';
 @import 'about.css';
 
-/* Fonts CSS Rules
-font-family: 'Nunito Sans', sans-serif;
-font-family: 'Roboto Serif', serif; */
-
-* {
-  box-sizing: border-box;
+body {
   margin: 0;
 }
 
-section {
+.section {
   height: 100vh;
 }
 
-.navbar {
-  height: 20vh;
+.gallery-container {
+  /* width: 500px; */
+  /* height: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: rotate(-90deg) translateY(-500px);
+  transform-origin: top right;
+  overflow-x: hidden;
+  overflow-y: auto; */
 }
 
-/* Gallery styling */
+.gallery-container div {
+  /* width: 100%;
+  height: 100vh; */
+  /* transform: rotate(90deg); */
+  /* position: relative; */
+  /* margin: 40px 20px; */
+  /* text-align: center; */
+  /* align-items: center;
+  justify-self: center; */
+}
 
- img {
-  align-self: center;
-  max-width: 50%;
-  max-height: 70%;
-  overflow: hidden;
-  margin: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+/* .gallery-container div:first-child {
+  margin: 0;
+} */
 
- .curtain {
-  box-shadow: none;
- }
+.gallery-container div img {
+  /* max-width: 100%; */
+  /* height: auto;
+  object-fit: cover; */
+}
 
- p{
-  padding-bottom: 10px;
-  font-family: 'Roboto Serif', serif;
- }
+/* p {
+  padding: 10px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
 
- h3{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: lighter;
-  font-style: oblique;
- }
+/*
+To hide the scroll bar.
+*/
+/* ::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
