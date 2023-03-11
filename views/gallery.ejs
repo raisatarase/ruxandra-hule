@@ -3,13 +3,11 @@
   <!-- Head partial -->
   <%- include('./partials/head.ejs') %>
 <body>
-  <section>
-    <!-- Navbar partial -->
-    <div class="navbar">
-      <%- include('./partials/nav.ejs') %>
-    </div>
-    </section>
-    <section>
+  <!-- Navbar partial -->
+  <div class="navbar">
+    <%- include('./partials/nav.ejs') %>
+  </div>
+  <!-- Gallery -->
   <div class="gallery-container">
     <div>
       <img src="RedTectonica.png" alt="Red Tectonica 2015">
@@ -36,10 +34,12 @@
       <img src="PaintingwithaBlueHeart.png" alt="Painting with a Blue Heart">
     </div>
     <div>
-      <img src="FrameofMindA.png" alt="Frame of Mind A">
-      </div>
       <div>
-      <img src="FrameofMindB.png" alt="Frame of Mind B">
+        <img src="FrameofMindA.png" alt="Frame of Mind A">
+      </div>
+        <div>
+        <img src="FrameofMindB.png" alt="Frame of Mind B">
+      </div>
     </div>
     <div>
       <img src="EmergentEmergencies2.png" alt="Emergent Urgencies A">
@@ -63,20 +63,24 @@
       <img class="curtain "src="PassiveDistortionsC2.png" alt="Passive Distortions C">
     </div>
     <div>
-      <img src="SweetConstrictionsA2.png" alt="Sweet Constirctions A">
+      <div>
+        <img src="SweetConstrictionsA2.png" alt="Sweet Constirctions A">
+      </div>
+      <div>
+        <img src="SweetConstrictionsB.png" alt="Sweet Constirctions B">
+      </div>
+      <div>
+        <img src="SweetConstrictionsC.png" alt="Sweet Constirctions C">
+      </div>
     </div>
     <div>
-      <img src="SweetConstrictionsB.png" alt="Sweet Constirctions B">
-    </div>
-    <div>
-      <img src="SweetConstrictionsC.png" alt="Sweet Constirctions C">
-    </div>
     <div>
       <img src="LoveCurtainA.png" alt="Love Curtain A">
       </div>
       <div>
       <img src="LoveCurtainB.png" alt="Love Curtain B">
     </div>
+  </div>
     <div>
       <img src="Safarius.png" alt="Safarius">
     </div>
@@ -90,7 +94,7 @@
       <img src="CandyStore2.png" alt="Candy Store">
     </div>
   </div>
-</section>
+
 
   <!-- Footer partial -->
   <%- include('./partials/footer.ejs') %>
