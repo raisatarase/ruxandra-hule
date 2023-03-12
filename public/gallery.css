@@ -9,6 +9,7 @@ body {
   background-color: rgb(221, 221, 221);
 }
 
+/* Normal style */
 .gallery-container {
   display: flex;
   flex-flow: column;
@@ -38,7 +39,7 @@ body {
 
 .img-container img:hover {
   transform: scale(1.5);
-  transition: transform 800ms ease-out;
+  transition: transform 800ms ease-in-out;
   border-radius: 10px;
 }
 
@@ -50,3 +51,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 } */
+
+
+/* DOM Manipulation and new page layout */
+
+.new-gallery-container {
+
+}
+
+.new-img-container {
+
+}
