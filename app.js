@@ -44,7 +44,7 @@ app.use((req, res) => {
   res.status(404).render('404', { title: '404'})
 });
 
-/* Hamburger Menu function */
+// Hamburger Menu function
  function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -52,4 +52,10 @@ app.use((req, res) => {
   } else {
     x.className = "topnav";
   }
+}
+
+// Image grow function
+
+function name() {
+
 }
