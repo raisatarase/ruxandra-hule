@@ -55,26 +55,15 @@ app.use((req, res) => {
 }
 
 // Image grow function /////////////////////////////
+img = document.getElementsByTagName("img");
+
 
 // select all the elements you want to be manipulated
-let gallery = document.getElementsByClassName("gallery-container");
-let galleryDiv = document.getElementsByClassName("img-container");
-let galleryImage = document.getElementsByTagName("img");
 
 //add events to the elements
 
 //create functions for the events
 
-
-
-// let image = document.getElementsByClassName("img-container");
-// image.addEventListener("onmouseover", () => {
-//   const container = document.querySelector('.demo');
-//   const image1 = document.querySelector('.');
-//   // element.style.backgroundColor = 'red';
-//   container.classList.add("new-gallery-container");
-//   container.classList.add("new-img-container");
-// }
 
 
 /* <script>
