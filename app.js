@@ -54,22 +54,7 @@ app.use((req, res) => {
   }
 }
 
-// Image grow function /////////////////////////////
-img = document.getElementsByTagName("img");
-
-function enlargeImg() {
-  img.style.width = "60%";
-  img.style.height = "auto";
-  img.style.transition = "width 0.5s ease";
-}
-
-
-// select all the elements you want to be manipulated
-
-//add events to the elements
-
-//create functions for the events
-
+// Functions to handle events
 
 
 /* <script>

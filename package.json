@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/raisatarase/ruxandra-hule.git"
   },
   "author": "",
@@ -22,5 +22,7 @@
     "express": "^4.18.1",
     "lodash": "^4.17.21",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
