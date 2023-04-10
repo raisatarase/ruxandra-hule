@@ -53,9 +53,3 @@ app.use((req, res) => {
     x.className = "topnav";
   }
 }
-
-// Image styling with JS event
-
-app.get('/api/myEndpoint', (req, res) => {
-
-})
