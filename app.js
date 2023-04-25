@@ -44,9 +44,11 @@ app.use((req, res) => {
   res.status(404).render('404', { title: '404'})
 });
 
+
 // Hamburger Menu function
- function myFunction() {
+function myFunction() {
   var x = document.getElementById("myTopnav");
+  console.log(x);
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
