@@ -1,9 +1,12 @@
 const express = require('express');
 const morgan = require('morgan');
+const p = require('path')
+
 
 // express app
 const app = express();
-app.use(express.static("public"));
+app.use(express.static('public'));
+
 
 // register view engine
 
@@ -43,15 +46,3 @@ app.get('/about-us', (req, res) => {
 app.use((req, res) => {
   res.status(404).render('404', { title: '404'})
 });
-
-
-// Hamburger Menu function
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  console.log(x);
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
