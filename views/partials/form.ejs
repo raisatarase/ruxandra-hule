@@ -1,13 +1,21 @@
 <!-- <form action="https://formsubmit.co/your@email.com" method="POST"> -->
-<div class="form-container">
-  <form action="" class="label-container">
-    <label for="name"></label>
-    <input class="form-control" type="text" placeholder="First name" name="first-name" required>
-    <input class="form-control" type="text" name="last-name" placeholder="Last name" required >
-    <label for="email"></label>
-    <input class="form-control" type="email" placeholder="E-mail" name="email" required>
-    <label for="subject"></label>
-    <textarea placeholder="..."></textarea>
-    <input  type="submit" value="Send">
-  </form>
-</div>
+    <form>
+      <div class="form-field">
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="First name" required>
+      </div>
+      <div class="form-field">
+        <label for="surname"></label>
+        <input type="text" id="surname" name="surname" placeholder="Last name"required>
+      </div>
+      <div class="form-field">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="E-mail" required>
+      </div>
+      <div class="form-field">
+        <label for="message"></label>
+        <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
