@@ -1,6 +1,5 @@
 const express = require('express');
 const morgan = require('morgan');
-const p = require('path')
 
 
 // express app

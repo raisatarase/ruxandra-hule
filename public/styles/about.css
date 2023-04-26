@@ -1,19 +1,35 @@
+/* Fonts CSS Rules
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+ */
 .content {
-  height: 100%;
-  width: 100%;
-  margin: 40px auto;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-}
-
-.description {
-  margin: 60px;
-  padding: 20px;
-  font-size: 3vw;
-  font-family: 'Nunito Sans', sans-serif;
+  padding: 30px ;
 }
 
 .portrait {
-  object-fit: cover;
-  margin-top: 20px;
+  margin: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+.description {
+  width: 100%;
+  max-width: 500px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+
+.portrait img {
+  max-width: 500px;
+  margin-top: 30px ;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 5px black);
 }
