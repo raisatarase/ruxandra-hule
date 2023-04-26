@@ -1,10 +1,6 @@
 .topnav {
   overflow: hidden;
 }
-/* Fonts CSS Rules
-font-family: 'Playfair Display', serif;
-font-family: 'Source Sans Pro', sans-serif;
- */
 
 .topnav a {
   float: right;
@@ -22,29 +18,18 @@ font-family: 'Source Sans Pro', sans-serif;
   color: rgb(163, 163, 163);
 }
 
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a{display: none;}
-  .topnav a.icon {
-    float: right;
-    display: inline-block;
+@media (max-width: 600px) {
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-}
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none !important;
-    display: block !important;
-    text-align: left !important;
-    color: black !important;
+  .topnav a {
+    float: none;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
   }
 }
