@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: calc(100vh - 200px);
 }
+
 
 form {
   width: 400px;
@@ -35,10 +36,14 @@ textarea {
 }
 
 button[type="submit"] {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-weight: 100;
   background-color: #000000;
   color: white;
   border: none;
   padding: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
@@ -46,5 +51,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #2f2f2f;
+  background-color: #6a6a6a;
 }
