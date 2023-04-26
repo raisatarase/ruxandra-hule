@@ -1,0 +1,15 @@
+.wrapper {
+  text-align: center;
+}
+
+.wrapper p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: large;
+  font-style: italic;
+}
+
+/* Fonts CSS Rules
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+ */
