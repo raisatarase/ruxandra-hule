@@ -10,7 +10,6 @@ body {
   background-color: rgb(221, 221, 221);
 }
 
-/* Normal style */
 .gallery-container {
   display: flex;
   flex-flow: column;
@@ -27,14 +26,19 @@ body {
   padding: 20px;
 }
 
-
 .img-container img {
   float: left;
   width:  60%;
-  height: 500px;
+  height: 400px;
   object-fit: cover;
   filter: drop-shadow(0 0 5px black);
   margin-left:  14px;
   margin-right: 14px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .img-container img {
+    height: auto;
+  }
 }
