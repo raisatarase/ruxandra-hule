@@ -23,6 +23,8 @@ footer {
   /* font-family: 'Playfair Display', serif;
   font-family: 'Source Sans Pro', sans-serif; */
   font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  font-size: 10px;
 }
 
 .btn:link,
