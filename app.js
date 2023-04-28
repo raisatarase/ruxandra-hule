@@ -2,13 +2,13 @@ const express = require('express');
 const morgan = require('morgan');
 
 
+
 // express app
 const app = express();
 app.use(express.static('public'));
 
 
 // register view engine
-
 app.set('view engine', 'ejs');
 
 // listen for request
