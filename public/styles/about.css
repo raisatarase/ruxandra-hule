@@ -46,3 +46,45 @@
     max-width: 100%;
   }
 }
+
+/* Font styling ABOUT section  */
+
+.description {
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* Font styling CV section */
+
+.heading {
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subheading {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.date-place{
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.detail-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #888;
+  margin-bottom: 60px;
+}
