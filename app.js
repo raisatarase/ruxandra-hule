@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 // listen for request
-app.listen(3000);
+app.listen(3002);
 
 // middleware and static files
 app.use(express.static('public'));
